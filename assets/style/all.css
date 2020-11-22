@@ -10622,7 +10622,7 @@ img {
   height: auto; }
 
 .subscribe {
-  background: url("../images/index9.jpg") no-repeat;
+  background: url("../images/index9.jpg") center no-repeat;
   background-size: cover;
   height: 600px; }
 
@@ -10644,7 +10644,7 @@ img {
   background-size: contain; }
 
 .banner {
-  background: url("../images/banner.png") no-repeat;
+  background: url("../images/banner.png") center no-repeat;
   background-size: cover;
   padding: 295px 0;
   color: #fff; }
