@@ -1,0 +1,10 @@
+.productInfo {
+  width: 63.63%;
+  @include breakpoint(phone) {
+    width: 100%;
+  }
+}
+
+.trainingBtn {
+  @include borderSize-lg(2px, #000000);
+}
