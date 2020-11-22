@@ -1,0 +1,18 @@
+.banner {
+  background: url('../images/banner.png') no-repeat;
+  background-size: cover;
+  padding: 295px 0;
+  color: $white;
+  @include breakpoint(phone) {
+    padding: 101px 0;
+  }
+  .shopBtn {
+    width: 80%;
+    @include borderSize-lg(2px, #fff);
+    font-size: 28px;
+    color: $white;
+    @include breakpoint(phone) {
+      width: 100%;
+    }
+  }
+}
