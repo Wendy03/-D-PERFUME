@@ -1,0 +1,16 @@
+.bg-primary {
+  a {
+    color: $white;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.darker {
+  filter: brightness(0.5);
+}
+
+.brightness {
+  filter: brightness(500);
+}

@@ -1,0 +1,18 @@
+@import '../../../node_modules/bootstrap/scss/functions';
+@import './helpers/variables';
+@import '../../../node_modules/bootstrap/scss/mixins';
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+
+@import './config/media';
+@import './config/utilities';
+@import './config/mixin';
+@import './config/typography';
+
+@import './components/subscribe';
+@import './components/pagination';
+@import './components/logo';
+@import './components/jumbotron';
+@import './components/card';
+@import './components/navbar';
+
+@import './layout/custom';
