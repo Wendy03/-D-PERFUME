@@ -1,10 +1,89 @@
----
-title: D'PERFUME
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>D'PERFUME</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/style/all.css" />
+  </head>
 
+  <body class="d-flex flex-column h-100">
+    <header class="container-fluid container-lg px-0 position-relative">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <h1><a class="navbar-brand logo" href="index.html">D'PERFUME</a></h1>
+        <div class="d-flex d-lg-none">
+          <a class="nav-link" href="#">
+            <i class="fas fa-shopping-cart text-dark"></i>
+            <span
+              class="badge badge-pill badge-primary"
+              style="transform: translateX(-7px) translateY(-8px)"
+            >
+              3
+            </span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="nav navbar-nav">
+            <li class="nav-item px-1">
+              <a class="nav-link text-center" href="products.html">
+                <i class="fas fa-store-alt d-none d-lg-inline-block"></i>
+                Product
+              </a>
+            </li>
+            <li class="nav-item px-1 order-last order-lg-2">
+              <a class="nav-link text-center" href="login.html">
+                <i class="fas fa-user-alt d-none d-lg-inline-block"></i>
+                 log in 
+              </a>
+            </li>
+            <li class="nav-item px-1 order-2 order-lg-3">
+              <a class="nav-link text-center" href="#">
+                <i class="fas fa-heart d-none d-lg-inline-block"></i>
+                Wishlist
+              </a>
+            </li>
+            <li class="nav-item order-3">
+              <a class="nav-link d-lg-none text-center" href="#">Blog</a>
+            </li>
+            <li class="nav-item order-4">
+              <a class="nav-link d-lg-none text-center" href="#">Contact</a>
+            </li>
+            <li class="nav-item px-1 d-none d-lg-inline-block order-lg-last">
+              <a class="nav-link" href="#">
+                <i class="fas fa-shopping-cart"></i>
+                Cart(3)
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main role="main" class="flex-shrink-0">
+        
 <div class="banner jumbotron jumbotron-fluid">
   <div class="container">
     <div class="row">
@@ -223,3 +302,78 @@ current: index
     </div>
   </div>
 </div>
+ 
+      <div class="subscribe d-flex align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-12 text-dark">
+              <p class="h2 text-nowrap">記得<br />訂閱以獲取更多資訊！</p>
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Your email address"
+                  aria-label="Your email address"
+                  aria-describedby="basic-addon2"
+                />
+                <div class="input-group-append">
+                  <span
+                    class="input-group-text bg-primary text-white"
+                    id="basic-addon2"
+                    >Subscribe</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </main>
+
+    <footer class="footer bg-primary mt-auto">
+      <div class="container py-2">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex align-items-center">
+            <h2>
+              <a href="index.html" class="brightness logo mr-4 mr-md-3"
+                >D'PERFUME</a
+              >
+            </h2>
+            <small class="text-white">© 2020. All Rights Reserved.</small>
+          </div>
+          <div class="d-none d-md-block">
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="products.html">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+</html>

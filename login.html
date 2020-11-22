@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title><%- title %></title>
+    <title>Login</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Source+Sans+Pro&display=swap"
       rel="stylesheet"
@@ -56,8 +56,7 @@
             <li class="nav-item px-1 order-last order-lg-2">
               <a class="nav-link text-center" href="login.html">
                 <i class="fas fa-user-alt d-none d-lg-inline-block"></i>
-                <% if (title === "Mypage") { %> Mypage <% } else { %> log in <%
-                } %>
+                 log in 
               </a>
             </li>
             <li class="nav-item px-1 order-2 order-lg-3">
@@ -84,7 +83,7 @@
     </header>
 
     <main role="main" class="flex-shrink-0">
-      <% if (title === "D'PERFUME") { %> <% } else { %>
+      
       <div class="productNav bg-primary text-white d-none d-md-block">
         <div class="container">
           <ul class="nav nav-pills">
@@ -109,34 +108,50 @@
           </ul>
         </div>
       </div>
-      <% } %> <%- contents %> <% if (title === "D'PERFUME" || title ===
-      "Products") { %>
-      <div class="subscribe d-flex align-items-center">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4 col-md-6 col-12 text-dark">
-              <p class="h2 text-nowrap">記得<br />訂閱以獲取更多資訊！</p>
-              <div class="input-group mb-3">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Your email address"
-                  aria-label="Your email address"
-                  aria-describedby="basic-addon2"
-                />
-                <div class="input-group-append">
-                  <span
-                    class="input-group-text bg-primary text-white"
-                    id="basic-addon2"
-                    >Subscribe</span
-                  >
-                </div>
-              </div>
-            </div>
+       
+<div class="container py-8 py-md-13">
+  <div class="row align-items-center">
+    <div class="login-img col-12 col-md-8">
+      <img
+        class="img-fluid"
+        src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+        alt=""
+      />
+    </div>
+    <div class="col-12 col-md-4">
+      <h2 class="mb-3">Log in</h2>
+      <form>
+        <div class="form-group">
+          <label for="userEmail">帳號</label>
+          <input
+            type="email"
+            class="form-control"
+            id="userEmail"
+            aria-describedby="emailHelp"
+            placeholder="email@example.coml"
+          />
+        </div>
+        <div class="form-group">
+          <label for="userPassword">密碼</label>
+          <input
+            type="password"
+            class="form-control"
+            id="userPassword"
+            placeholder="Password"
+          />
+        </div>
+        <div class="d-flex justify-content-between align-items-center">
+          <a href="#">忘記密碼</a>
+          <div class="d-flex">
+            <a href="#" class="btn btn-outline-primary mr-2">註冊</a>
+            <a href="mypage.html" class="btn btn-primary">登入</a>
           </div>
         </div>
-      </div>
-      <% } else { %> <% } %>
+      </form>
+    </div>
+  </div>
+</div>
+  
     </main>
 
     <footer class="footer bg-primary mt-auto">
