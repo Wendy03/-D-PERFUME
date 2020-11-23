@@ -825,7 +825,7 @@ $dropdown-padding-x: 0 !default;
 $dropdown-padding-y: 0.5rem !default;
 $dropdown-spacer: 0.125rem !default;
 $dropdown-font-size: $font-size-base !default;
-$dropdown-color: #818a91 !default;
+$dropdown-color: #495057 !default;
 $dropdown-bg: $white !default;
 $dropdown-border-color: rgba($black, 0.15) !default;
 $dropdown-border-radius: $border-radius !default;
@@ -875,7 +875,7 @@ $pagination-hover-color: $link-hover-color !default;
 $pagination-hover-bg: $gray-200 !default;
 $pagination-hover-border-color: $gray-300 !default;
 
-$pagination-active-color: $primary !default;
+$pagination-active-color: $secondary !default;
 $pagination-active-bg: $white !default;
 $pagination-active-border-color: $pagination-active-bg !default;
 
