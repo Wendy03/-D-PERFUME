@@ -2854,7 +2854,7 @@ input[type="button"].btn-block {
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
-  color: #818a91;
+  color: #495057;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -4342,7 +4342,7 @@ input[type="button"].btn-block {
 
 .page-item.active .page-link {
   z-index: 3;
-  color: #916000;
+  color: #ac8a46;
   background-color: #fff;
   border-color: #fff; }
 
@@ -10679,8 +10679,9 @@ img {
     left: 0;
     right: 0;
     z-index: 1; }
+    .navbar-nav .nav-item {
+      border-bottom: 1px solid #fff; }
     .navbar-nav .nav-link {
-      border-bottom: 1px solid #fff;
       color: #fff !important; } }
 
 .productInfo {
