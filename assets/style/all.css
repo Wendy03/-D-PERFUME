@@ -10597,6 +10597,11 @@ a.text-silver:hover, a.text-silver:focus {
   .bg-primary a:hover {
     text-decoration: underline; }
 
+.bg-center {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
 .darker {
   -webkit-filter: brightness(0.5);
           filter: brightness(0.5); }
@@ -10615,6 +10620,10 @@ html,
 body {
   width: 100%;
   height: 100%; }
+  @media only screen and (max-width: 320px) {
+    html,
+    body {
+      font-size: 12px; } }
 
 img {
   display: block;
@@ -10622,8 +10631,7 @@ img {
   height: auto; }
 
 .subscribe {
-  background: url("../images/index9.jpg") center no-repeat;
-  background-size: cover;
+  background-image: url("../images/index9.jpg");
   height: 600px; }
 
 .page-link {
@@ -10644,8 +10652,7 @@ img {
   background-size: contain; }
 
 .banner {
-  background: url("../images/banner.png") center no-repeat;
-  background-size: cover;
+  background-image: url("../images/banner.png");
   padding: 295px 0;
   color: #fff; }
   @media only screen and (max-width: 767px) {
@@ -10678,7 +10685,7 @@ img {
 
 .productInfo {
   width: 63.63%; }
-  @media only screen and (max-width: 767px) {
+  @media only screen and (max-width: 992px) {
     .productInfo {
       width: 100%; } }
 
