@@ -1,6 +1,5 @@
 .banner {
-  background: url('../images/banner.png') center no-repeat;
-  background-size: cover;
+  background-image: url('../images/banner.png');
   padding: 295px 0;
   color: $white;
   @include breakpoint(phone) {

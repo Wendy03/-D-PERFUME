@@ -7,6 +7,12 @@
   }
 }
 
+.bg-center{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .darker {
   filter: brightness(0.5);
 }

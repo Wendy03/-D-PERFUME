@@ -1,6 +1,6 @@
 .productInfo {
   width: 63.63%;
-  @include breakpoint(phone) {
+  @include breakpoint(pad) {
     width: 100%;
   }
 }
