@@ -4316,7 +4316,7 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #916000;
+  color: #000;
   background-color: #fff;
   border: 1px solid #dee2e6; }
   .page-link:hover {
@@ -10597,11 +10597,6 @@ a.text-silver:hover, a.text-silver:focus {
   .bg-primary a:hover {
     text-decoration: underline; }
 
-.bg-center {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; }
-
 .darker {
   -webkit-filter: brightness(0.5);
           filter: brightness(0.5); }
@@ -10632,32 +10627,22 @@ img {
 
 .subscribe {
   background-image: url("../images/index9.jpg");
-  height: 600px; }
-
-.page-link {
-  color: #000; }
-
-.active {
-  color: #ac8a46;
-  text-decoration: underline; }
-
-.logo {
-  background: url("../images/logo.png") center no-repeat;
-  display: block;
-  width: 128px;
-  height: 38px;
-  text-indent: 101%;
-  overflow: hidden;
-  white-space: nowrap;
-  background-size: contain; }
+  min-height: 600px;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  padding-bottom: 112px; }
 
 .banner {
   background-image: url("../images/banner.png");
-  padding: 295px 0;
+  height: calc(100vh - 64px);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   color: #fff; }
   @media only screen and (max-width: 767px) {
     .banner {
-      padding: 101px 0; } }
+      background-image: url("../images/banner-sm.png"); } }
   .banner .shopBtn {
     width: 80%;
     border: 2px solid #fff;
@@ -10667,10 +10652,6 @@ img {
     @media only screen and (max-width: 767px) {
       .banner .shopBtn {
         width: 100%; } }
-
-.card:hover {
-  -webkit-box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
-          box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3); }
 
 @media only screen and (max-width: 992px) {
   .navbar-nav {
@@ -10693,5 +10674,23 @@ img {
 .trainingBtn {
   border: 2px solid #000000;
   border-radius: 30px; }
+
+.logo {
+  background: url("../images/logo.png") center no-repeat;
+  display: block;
+  width: 128px;
+  height: 38px;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+  background-size: contain; }
+
+.card:hover {
+  -webkit-box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+          box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3); }
+
+.page--active {
+  color: #ac8a46;
+  text-decoration: underline; }
 
 /*# sourceMappingURL=all.css.map */
