@@ -1,9 +1,12 @@
 .banner {
   background-image: url('../images/banner.png');
-  padding: 295px 0;
+  height: calc(100vh - 64px);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   color: $white;
   @include breakpoint(phone) {
-    padding: 101px 0;
+    background-image: url('../images/banner-sm.png');
   }
   .shopBtn {
     width: 80%;

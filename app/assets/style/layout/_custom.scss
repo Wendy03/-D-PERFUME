@@ -8,3 +8,25 @@
 .trainingBtn {
   @include borderSize-lg(2px, #000000);
 }
+
+.logo {
+  background: url('../images/logo.png') center no-repeat;
+  display: block;
+  width: 128px;
+  height: 38px;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+  background-size: contain;
+}
+
+.card {
+  &:hover {
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+  }
+}
+
+.page--active {
+  color: $secondary;
+  text-decoration: underline;
+}

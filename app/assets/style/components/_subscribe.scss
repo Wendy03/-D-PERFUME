@@ -1,4 +1,8 @@
 .subscribe {
   background-image: url('../images/index9.jpg');
-  height: 600px;
+  min-height: 600px;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  padding-bottom: 112px;
 }
