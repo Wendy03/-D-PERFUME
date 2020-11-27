@@ -10631,7 +10631,8 @@ img {
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
-  padding-bottom: 112px; }
+  padding-bottom: 112px;
+  background-attachment: fixed; }
 
 .banner {
   background-image: url("../images/banner.png");

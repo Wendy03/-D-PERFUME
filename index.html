@@ -13,6 +13,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./assets/style/all.css" />
   </head>
 
@@ -102,7 +103,12 @@
     <div class="row">
       <div class="col offset-lg-7 offset-md-5">
         <h2 class="display-4 font-weight-bolder">Perfume your day</h2>
-        <p class="h5 font-weight-normal mb-3">
+        <p
+          class="h5 font-weight-normal mb-3"
+          data-aos="fade-up"
+          data-aos-delay="800"
+          data-aos-duration="800"
+        >
           A perfume is like a piece of clothing, a message, a way of presenting
           oneself a costume that according to the person who wears it.
         </p>
@@ -114,7 +120,12 @@
   </div>
 </div>
 <ul class="container py-8 py-md-13">
-  <li class="row no-gutters flex-column-reverse flex-lg-row mb-4 mb-lg-0">
+  <li
+    class="row no-gutters flex-column-reverse flex-lg-row mb-4 mb-lg-0"
+    data-aos="fade-right"
+    data-aos-delay="800"
+    data-aos-duration="800"
+  >
     <div
       class="col-lg-6 col-12 d-flex align-items-lg-center justify-content-lg-center"
     >
@@ -137,6 +148,9 @@
   </li>
   <li
     class="row no-gutters flex-column-reverse flex-lg-row-reverse mb-4 mb-lg-0"
+    data-aos="fade-left"
+    data-aos-delay="800"
+    data-aos-duration="800"
   >
     <div
       class="col-lg-6 col-12 d-flex align-items-lg-center justify-content-lg-center"
@@ -157,7 +171,12 @@
       />
     </div>
   </li>
-  <li class="row no-gutters flex-column-reverse flex-lg-row mb-4 mb-lg-0">
+  <li
+    class="row no-gutters flex-column-reverse flex-lg-row mb-4 mb-lg-0"
+    data-aos="fade-right"
+    data-aos-delay="800"
+    data-aos-duration="800"
+  >
     <div
       class="col-lg-6 col-12 d-flex align-items-lg-center justify-content-lg-center"
     >
@@ -179,6 +198,9 @@
   </li>
   <li
     class="row no-gutters flex-column-reverse flex-lg-row-reverse mb-4 mb-lg-0"
+    data-aos="fade-left"
+    data-aos-delay="800"
+    data-aos-duration="800"
   >
     <div
       class="col-lg-6 col-12 d-flex align-items-lg-center justify-content-lg-center"
@@ -240,7 +262,12 @@
 <div class="container-fluid bg-light py-5">
   <div class="container">
     <ul class="row list-unstyled">
-      <li class="col-md-4 col-12">
+      <li
+        class="col-md-4 col-12"
+        data-aos="fade-up"
+        data-aos-delay="800"
+        data-aos-duration="1200"
+      >
         <div class="card h-100 border-0">
           <a href="#">
             <img
@@ -256,7 +283,12 @@
           </div>
         </div>
       </li>
-      <li class="col-md-4 col-12">
+      <li
+        class="col-md-4 col-12"
+        data-aos="fade-up"
+        data-aos-delay="1000"
+        data-aos-duration="1200"
+      >
         <div class="card h-100 border-0 bg-light">
           <a href="#">
             <img
@@ -272,7 +304,12 @@
           </div>
         </div>
       </li>
-      <li class="col-md-4 col-12">
+      <li
+        class="col-md-4 col-12"
+        data-aos="fade-up"
+        data-aos-delay="1200"
+        data-aos-duration="1200"
+      >
         <div class="card h-100 border-0">
           <img
             class="darker card-img-top img-fluid"
@@ -296,10 +333,20 @@
 </div>
 <div class="container py-13">
   <div class="row align-items-center">
-    <div class="col-lg-8 col-12">
+    <div
+      class="col-lg-8 col-12"
+      data-aos="fade-right"
+      data-aos-delay="800"
+      data-aos-duration="800"
+    >
       <img class="img-fluid" src="./assets/images/index8.jpg" alt="" />
     </div>
-    <div class="col-lg-4 col-12">
+    <div
+      class="col-lg-4 col-12"
+      data-aos="fade-left"
+      data-aos-delay="800"
+      data-aos-duration="800"
+    >
       <h2><dt>Bottle-Recycling</dt></h2>
       <p class="h6 font-weight-normal mb-3">
         Recycle your used empty bottles and be rewarded!
@@ -323,8 +370,8 @@
               <p class="h2 text-nowrap">記得<br />訂閱以獲取更多資訊！</p>
               <div class="input-group mb-3">
                 <input
-                  type="text"
-                  class="form-control border-primary"
+                  type="email"
+                  class="form-control border-primary subscribeEmail"
                   placeholder="Your email address"
                   aria-label="Your email address"
                   aria-describedby="basic-addon2"
@@ -386,7 +433,13 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
   </body>
 </html>
