@@ -2,14 +2,13 @@
 @import './helpers/variables';
 @import '../../../node_modules/bootstrap/scss/mixins';
 @import '../../../node_modules/bootstrap/scss/bootstrap';
+@import './helpers/mixin';
+@import './helpers/typography';
 
-@import './config/media';
-@import './config/utilities';
-@import './config/mixin';
-@import './config/typography';
+@import './base/base';
 
 @import './components/subscribe';
 @import './components/jumbotron';
 @import './components/navbar';
 
-@import './layout/custom';
+@import './pages/custom';

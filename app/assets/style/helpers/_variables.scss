@@ -246,6 +246,7 @@ $grid-breakpoints: (
 // Define the maximum width of `.container` for different screen sizes.
 
 $container-max-widths: (
+  xs: 320px,
   sm: 540px,
   md: 720px,
   lg: 960px,
@@ -332,6 +333,21 @@ $h3-font-size: $font-size-base * 1.75 !default;
 $h4-font-size: $font-size-base * 1.5 !default;
 $h5-font-size: $font-size-base * 1.25 !default;
 $h6-font-size: $font-size-base !default;
+
+$h1-h6: (
+  h1: $h1-font-size,
+  h2: $h2-font-size,
+  h3: $h3-font-size,
+  h4: $h4-font-size,
+  h5: $h5-font-size,
+  h6: $h6-font-size,
+);
+
+$font-sizes: (
+  base: $font-size-base,
+  lg: $font-size-lg,
+  sm: $font-size-sm,
+);
 
 $headings-margin-bottom: $spacer / 2 !default;
 $headings-font-family: null !default;
@@ -893,7 +909,8 @@ $jumbotron-bg: $gray-200 !default;
 // Cards
 
 $card-spacer-y: 0.75rem !default;
-$card-spacer-x: 1.25rem !default;
+// $card-spacer-x: 1.25rem !default;
+$card-spacer-x: 0 !default;
 $card-border-width: $border-width !default;
 // $card-border-radius:                $border-radius !default;
 $card-border-radius: 0 !default;

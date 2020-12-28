@@ -1,20 +1,20 @@
 .banner {
-  background-image: url('../images/banner.png');
+  background-image: url('../images/banner-sm.png');
   height: calc(100vh - 64px);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   color: $white;
-  @include breakpoint(phone) {
-    background-image: url('../images/banner-sm.png');
+  @include media-breakpoint-up(sm) {
+    background-image: url('../images/banner.png');
   }
   .shopBtn {
-    width: 80%;
+    width: 100%;
     @include borderSize-lg(2px, #fff);
     font-size: 28px;
     color: $white;
-    @include breakpoint(phone) {
-      width: 100%;
+    @include media-breakpoint-up(sm) {
+      width: 80%;
     }
   }
 }

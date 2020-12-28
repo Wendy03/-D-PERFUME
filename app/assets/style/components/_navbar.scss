@@ -1,5 +1,5 @@
 .navbar-nav {
-  @include breakpoint(pad) {
+  @include media-breakpoint-only(md) {
     background: #707070;
     position: absolute;
     left: 0;

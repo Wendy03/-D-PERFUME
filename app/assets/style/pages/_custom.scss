@@ -1,7 +1,7 @@
 .productInfo {
-  width: 63.63%;
-  @include breakpoint(pad) {
-    width: 100%;
+  width: 100%;
+  @include media-breakpoint-up(lg) {
+    width: 63.63%;
   }
 }
 

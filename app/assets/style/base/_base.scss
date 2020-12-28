@@ -1,7 +1,10 @@
-.bg-primary {
-  a {
-    color: $white;
-    &:hover {
+body {
+  overflow-x: hidden;
+}
+
+.hover {
+  &-underline {
+    a:hover {
       text-decoration: underline;
     }
   }
